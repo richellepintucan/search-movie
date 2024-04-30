@@ -1,6 +1,8 @@
 import data from '../data.js';
 import dom from '../dom.js';
+
 import createImage from '../components/createImage.js';
+import insertChildAtIndex from '../components/insertChildAtIndex.js';
 
 const loadHandler = () => {
     data.images.forEach((image) => {
