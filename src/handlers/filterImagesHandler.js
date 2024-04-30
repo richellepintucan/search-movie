@@ -1,12 +1,15 @@
 import data from '../data.js';
 import dom from '../dom.js';
 
+import insertChildAtIndex from '../components/insertChildAtIndex.js';
+
 const filterImagesHandler = (value) => {
     data.posters.forEach((poster) => {
         const posterExist = document.getElementById(poster.id);
         if (poster.title.toLowerCase().includes(value.toLowerCase())) {
             if (!posterExist) {
                 dom.images.append(poster.dom);
+                insertChildAtIndex(dom.images, poster.dom, poster.id-1);
             }
         } else {
             if (posterExist) {
