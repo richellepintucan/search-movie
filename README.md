@@ -28,7 +28,7 @@
 
 ## Screenshots
 
-![Example screenshot](./assets/screenshot-2.png)
+![Example screenshot](./assets/gallery-screenshot.png)
 
 ## Technologies
 
