@@ -71,11 +71,10 @@ const data = {
 
 To-do list:
 
-- Start by defining the HTML structure for the food menu.
+- Start by defining the HTML structure for search movies.
 - Style the posters using CSS.
 - Separating concerns in this way, to have a clear structure, making code easier
-  to understand, maintain, and expand upon. It's a great approach for building
-  scalable and maintainable page
+  to understand, maintain, and expand upon. It's a great approach for building scalable and maintainable page
 
 ## Status
 
